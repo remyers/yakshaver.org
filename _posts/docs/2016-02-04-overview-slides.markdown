@@ -10,7 +10,7 @@ img: ft-screenshot.png
 thumb: bytabit-logo-100px.png
 ---
 
-####Bytabit Fiat-Trader Overview Slides
+#### Bytabit Fiat-Trader Overview Slides
 
 A high level overview of the process Fiat-Trader uses to trade fiat currency for bitcoin is here:
 

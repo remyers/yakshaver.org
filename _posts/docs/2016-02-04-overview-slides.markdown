@@ -7,7 +7,7 @@ categories:
 - doc
 - design
 img: ft-screenshot.png
-thumb: bytabit-logo-100px.png
+thumb: bytabit-icon-48x48.png
 ---
 
 #### Bytabit Fiat-Trader Overview Slides

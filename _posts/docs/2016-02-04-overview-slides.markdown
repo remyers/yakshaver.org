@@ -9,7 +9,7 @@ categories:
 thumb: design-icon-48x48.png
 ---
 
-See below for a high level overview of the process Fiat-Trader uses to trade fiat currency for bitcoin.
+See below for a high level overview of the process Fiat Trader uses to trade fiat currency for bitcoin.
 
 <!--more-->
 

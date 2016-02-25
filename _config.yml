@@ -2,7 +2,7 @@
 
 # Site settings
 title: Bytabit
-description: "The Bytabit fiat trader project."
+description: "The Bytabit Fiat Trader project."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://bytabit.org"

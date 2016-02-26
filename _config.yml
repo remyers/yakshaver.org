@@ -84,7 +84,7 @@ clients:
     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "The mission of the Bytabit team is to provide the most secure, private, and convienient way to buy and sell fiat currency with bitcoin."
+about: "The mission of the Bytabit team is to provide the most secure, private, and The mission of the Bytabit team is to provide the most secure, private, and convienient way to buy and sell fiat currency with bitcoin. way to buy and sell fiat currency with bitcoin."
 
 # Testimonial content. Shown on Home and About page. 
 testimonial:

@@ -442,13 +442,13 @@ csmall {
 
 /* Contact Page */
 #contactwrap {
-	background: url(../img/contact-map.png) no-repeat center top;
+	background: url(../img/worldmap.png) no-repeat center top;
 	margin-top: -60px;
 	padding-top:0px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 400px;
+	min-height: 500px;
 	width: 100%;
 	
     -webkit-background-size: 100%;

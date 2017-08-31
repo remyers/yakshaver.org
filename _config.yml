@@ -1,0 +1,108 @@
+﻿### GENERAL SETTINGS ###
+
+# Site settings
+title: Bytabit
+description: "The Bytabit Mobile project."
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://bytabit.org"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#C2D4E4"
+  primary_rgb: "207,226,243" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#FF4B1A"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#ffffff"
+  
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+#  - title: bitbucket
+#    url: https://bitbucket.org/bytabit/
+#  - title: list-ol
+#    url: https://bytabit.atlassian.net/projects/bytabit-mobile/summary/statistics
+  - title: twitter
+    url: https://twitter.com/BytabitOrg
+  - title: reddit-alien
+    url: https://www.reddit.com/r/bytabit
+#  - title: comments
+#    url: https://bytabit.hipchat.com/chat
+    
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - Los Angeles, California
+    - New York, New York
+    - Malmö, Sweden
+email: info@bytabit.org
+tel1: +1 323 375 4277
+tel2: +46 (0) 40 6060683 
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+    
+# Members information. Shown on About page.
+members:
+  - name: Steve Myers
+    position: members.position1 
+    text: members.text1
+    img: steve.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:steve@bytabit.org
+      - title: twitter
+        url: https://twitter.com/stevemyers_
+      - title: linkedin
+        url: https://www.linkedin.com/in/smyers3
+  - name: Marc Lundwall
+    position: members.position2
+    text: members.text2
+    img: marc.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:marc@bytabit.org
+      - title: twitter
+        url: https://twitter.com/lundwallmarc
+      - title: linkedin
+        url: https://www.linkedin.com/in/marc-lundwall-938a624
+  - name: Richard Myers
+    position: members.position3
+    text: members.text3
+    img: richard.jpg
+    social:
+      - title: envelope #use for email address
+        url: mailto:richard@bytabit.org
+      - title: twitter
+        url: https://twitter.com/remyers_
+      - title: linkedin
+        url: https://se.linkedin.com/in/remyers
+
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: dribbble
+    img: client01.png
+  - name: Code is Poetry
+    img: client02.png
+  - name: Vimeo
+    img: client03.png
+  - name: VimeoPro
+    img: client04.png
+    
+# multilanguage plugin
+languages: ["en", "sv"]
+default_lang: en
+languageNames:
+  en: English
+  sv: Svensk
+
+# exclude files and folders from being copied to the localization folders
+exclude_from_localizations: ["javascript", "images", "css"]
+
+<link rel="stylesheet" href="{{ "/css/bootstrap.css" | prepend: site.baseurl_root }}"/>

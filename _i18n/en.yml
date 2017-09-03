@@ -6,14 +6,14 @@ titles:
   docs: "Docs"
   about: "About"
   contact: "Contact"
-  blog: "[SV]Blog"
-  categories: "[SV]Categories" 
+  blog: "Blog"
+  categories: "Categories" 
 nav:
   home: "HOME"
   about: "ABOUT"
   contact: "CONTACT"
-  blog: "[SV]BLOG"
-  docs: "[SV]DOCS"
+  blog: "BLOG"
+  docs: "DOCS"
 header:
   title: "Bytabit Mobile App"
   subheader: "Buy/Sell Bitcoin for Krona using Swish" 
@@ -26,7 +26,7 @@ home:
   easy_subheader: "Simple to use mobile app for Android and iOS."
 contact:
   title: "Get In Touch"
-  text: "We look forward to hearing from you!"
+  text: "Please let us know if you would like updates on our project or to participate in our upcoming beta. We look forward to hearing from you!"
   offices: "Offices"
   twitter: "Twitter"
   github: "GitHub"
@@ -49,9 +49,4 @@ footer:
   social: "Social Links"
   offices: "Offices"
   mission: "The mission of the Bytabit team is to provide the most secure, private, and convenient way to buy and sell bitcoin."
- 
-pages:
-  about_header: "More About Our Team."
-  about_text: "We built Bytabit because we believe everyone should have the power to exchange value safely, privately and without permission."
-  testimonial: "Please let us know if you would like updates on our project or to participate in our upcoming beta:"
 

@@ -18,7 +18,7 @@ header:
   title: "Bytabit Mobile App"
   subheader: "Buy/Sell Bitcoin for Krona using Swish" 
 home:
-  safe: "SAFE"
+  safe: "Safe"
   safe_subheader: "Bitcoin secured by multi-signature escrow with optional arbitration by Bytabit."
   private: "Private"
   private_subheader: "Identity information is only revealed to your trade partners."

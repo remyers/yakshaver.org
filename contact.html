@@ -16,19 +16,19 @@ permalink_sv: /contact_sv/
 		<h4>{% t contact.title %}</h4>
             <div class="hline"></div>
 	    <p>{% t contact.signup %}</p>
-                <form role="form" action="https://getsimpleform.com/messages?form_api_token=6b4604571bbdd9390ad1eb0e1c6c339d" method="post">
+                <form role="form" action="https://getsimpleform.com/messages?form_api_token=9b2e1856bf13b0d7200ad47a4f3f3572" method="post">
 	  	  <input type='hidden' name='redirect_to' value='{{ site.url }}/{% tl thankyou %}'/>
                   <div class="form-group">
 			  <label for="InputName1">{% t contact.yourname %}</label>
-                    <input type="text" class="form-control" id="exampleInputName1">
+                    <input type="text" class="form-control" name="InputName1">
                   </div>
                   <div class="form-group">
 			  <label for="InputEmail1">{% t contact.emailaddress %}</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1">
+                    <input type="email" class="form-control" name="InputEmail1">
                   </div>
                   <div class="form-group">
 			  <label for="message1">{% t contact.note %}</label>
-                    <textarea class="form-control" id="message1" rows="3"></textarea>
+                    <textarea class="form-control" name="message1" rows="3"></textarea>
                   </div>
                   <button type="submit" class="btn btn-theme">{% t contact.submit %}</button>
                 </form>

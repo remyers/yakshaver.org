@@ -69,26 +69,29 @@
       <ul class="nav navbar-nav">
 	 <li ><a href="/sv/">HEM</a></li>
 	 <!-- <li ><a href="/sv/blog/">BLOGG</a></li> -->
-	 <!-- <li ><a href="">DOK</a></li> -->
-	<li ><a href="/sv/om/">OM</a></li>
-	<li ><a href="/sv/kontakt/">KONTAKT</a></li>
-	<li 
-		<!-- Adds links to other languages on the post -->
+	 <!-- <li ><a href="">DOKUMENT</a></li> -->
+	<li ><a href="/sv/about_sv/">OM</a></li>
+	<li ><a href="/sv/contact_sv/">KONTAKT</a></li>
+	<!-- adds links to other languages on the post -->
+	
+	  
+	  	
+	  		<!-- english index.html  -->
+			<li ><a href="/feed.xml" >EN</a></li>
 		
-		  
-		    
-                      
-		        <!-- english index.html  -->
-		        <a href="/feed.xml" >English</a>
-		      
-		    
-		    
-	            
-		  
-		
-		  
-		
-	</li>
+	  
+	  
+          
+	
+	  
+	  	
+	      		<!-- all others index.html -->
+			<li class="active"><a href="/sv/feed.xml" >SV</a></li>
+	    	
+	  
+	  
+          
+	
       </ul>		      
     </div><!--/.nav-collapse -->
   </div>
@@ -102,8 +105,8 @@
     <description>The Bytabit Mobile project.</description>
     <link>http://localhost:4000/sv/</link>
     <atom:link href="http://localhost:4000/sv/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 03 Sep 2017 23:17:52 +0200</pubDate>
-    <lastBuildDate>Sun, 03 Sep 2017 23:17:52 +0200</lastBuildDate>
+    <pubDate>Mon, 02 Oct 2017 03:21:02 +0200</pubDate>
+    <lastBuildDate>Mon, 02 Oct 2017 03:21:02 +0200</lastBuildDate>
     <generator>Jekyll v3.5.0</generator>
     
   </channel>
@@ -116,7 +119,7 @@
             <div class="col-lg-4">
 		    <h4>Om</h4>
                 <div class="hline-w"></div>
-		<p>Uppdraget för Bytabit-laget är att ge det säkraste, privata och bekväma sättet att köpa och sälja bitcoin.</p>
+		<p>Bytabit ABs mål är att ge det säkraste, mest privata och bekvämaste sättet att köpa och sälja Bitcoin.</p>
             </div>
             <div class="col-lg-4">
                 <h4>Sociala länkar</h4>

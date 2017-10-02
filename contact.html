@@ -17,7 +17,7 @@ permalink_sv: /contact_sv/
             <div class="hline"></div>
 	    <p>{% t contact.signup %}</p>
                 <form role="form" action="https://getsimpleform.com/messages?form_api_token=9b2e1856bf13b0d7200ad47a4f3f3572" method="post">
-	  	  <input type='hidden' name='redirect_to' value='{{ site.url }}/{% tl thankyou %}'/>
+	  	  <input type='hidden' name='redirect_to' value='{{ site.thankyou_url }}/{% tl thankyou %}'/>
                   <div class="form-group">
 			  <label for="InputName1">{% t contact.yourname %}</label>
                     <input type="text" class="form-control" name="InputName1">

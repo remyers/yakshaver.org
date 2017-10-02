@@ -6,6 +6,7 @@ description: "The Bytabit Mobile project."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://bytabit.org"
+thankyou_url: "http://remyers.github.io"
 
 # Build settings
 markdown: kramdown

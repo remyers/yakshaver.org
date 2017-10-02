@@ -17,27 +17,23 @@
 	 <!-- <li {% if page.title == "titles.docs" %}class="active"{% endif %}><a href="{% tl docs %}">{% t nav.docs %}</a></li> -->
 	<li {% if page.title == "titles.about" %}class="active"{% endif %}><a href="{% tl about %}">{% t nav.about %}</a></li>
 	<li {% if page.title == "titles.contact" %}class="active"{% endif %}><a href="{% tl contact %}">{% t nav.contact %}</a></li>
-	<li 
-		<!-- Adds links to other languages on the post -->
-		{% for lang in site.languages %}
-		  {% unless site.lang == lang %}
-		    {% if page.namespace %}
-		      <a href="{% tl {{ page.namespace }} {{ lang }} %}" >{% t langs.{{ lang }} %}</a>
-		    {% else %}
-                      {% if lang == site.default_lang %}
-		        <!-- english index.html  -->
-		        <a href="{{ site.baseurl_root }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
-		      {% else %}
-		        <!-- all others index.html -->
-		        <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{% t langs.{{ lang }} %}</a>
-	    	      {% endif %}
-		    {% endif %}
-		    {% assign next = forloop.index | plus: 1 %}
-	            {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
-		    {% endif %}
-		  {% endunless %}
-		{% endfor %}
-	</li>
+	<!-- adds links to other languages on the post -->
+	{% for lang in site.languages %}
+	  {% if page.namespace %}
+	  	<li {% if site.lang == lang %}class="active"{% endif %}><a href="{% tl {{ page.namespace }} {{ lang }} %}" >{% t langs.{{ lang }} %}</a></li>
+	  {% else %}
+	  	{% if lang == site.default_lang %}
+	  		<!-- english index.html  -->
+			<li {% if site.lang == lang %}class="active"{% endif %}><a href="{{ site.baseurl_root }}{{ page.url }}" >{% t langs.{{ lang }} %}</a></li>
+		{% else %}
+	      		<!-- all others index.html -->
+			<li {% if site.lang == lang %}class="active"{% endif %}><a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}" >{% t langs.{{ lang }} %}</a></li>
+	    	{% endif %}
+	  {% endif %}
+	  {% assign next = forloop.index | plus: 1 %}
+          {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
+	  {% endif %}
+	{% endfor %}
       </ul>		      
     </div><!--/.nav-collapse -->
   </div>

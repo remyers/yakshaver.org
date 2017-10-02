@@ -1,13 +1,14 @@
 langs:
-  en: "English"
-  sv: "Svensk"
+  en: "EN"
+  sv: "SV"
 titles:
   home: "Home"
   docs: "Docs"
   about: "About"
   contact: "Contact"
-  blog: "Blog"
-  categories: "Categories" 
+  thankyou: ""
+  blog: "[SV]Blog"
+  categories: "[SV]Categories" 
 nav:
   home: "HOME"
   about: "ABOUT"
@@ -16,9 +17,9 @@ nav:
   docs: "DOCS"
 header:
   title: "Bytabit Mobile App"
-  subheader: "Buy/Sell Bitcoin for Krona using Swish" 
+  subheader: "Buy/Sell Bitcoin for SEK using Swish" 
 home:
-  safe: "Safe"
+  safe: "SAFE"
   safe_subheader: "Bitcoin secured by multi-signature escrow with optional arbitration by Bytabit."
   private: "Private"
   private_subheader: "Identity information is only revealed to your trade partners."
@@ -26,11 +27,18 @@ home:
   easy_subheader: "Simple to use mobile app for Android and iOS."
 contact:
   title: "Get In Touch"
-  text: "Please let us know if you would like updates on our project or to participate in our upcoming beta. We look forward to hearing from you!"
+  text: "We look forward to hearing from you!"
   offices: "Offices"
   twitter: "Twitter"
   github: "GitHub"
-
+  signup: "Signup for our newsletter to get the latest Bytabit news."
+  yourname: "Your Name"
+  emailaddress: "Email address"
+  note: "Note"
+  submit: "Submit"
+thankyou:
+  title: "Thank You!"
+  text: "We appreciate your interest."
 members:
   title: "MEET OUR TEAM"
   contact: "Contact Me:"
@@ -49,4 +57,8 @@ footer:
   social: "Social Links"
   offices: "Offices"
   mission: "The mission of the Bytabit team is to provide the most secure, private, and convenient way to buy and sell bitcoin."
+pages:
+  about_header: "More About Our Team."
+  about_text: "We built Bytabit because we believe everyone should have the power to exchange value safely, privately and without permission."
+  testimonial: "Please let us know if you would like updates on our project or to participate in our upcoming beta:"
 

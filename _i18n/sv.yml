@@ -1,12 +1,12 @@
-﻿
 langs:
-  en: "English"
-  sv: "Svensk"
+  en: "EN"
+  sv: "SV"
 titles:
   home: "Hem"
-  docs: "Dok"
+  docs: "Dokument"
   about: "Om"
   contact: "Kontakt"
+  thankyou: ""
   blog: "Blogg"
   categories: "Kategorier"
 nav:
@@ -14,39 +14,52 @@ nav:
   about: "OM"
   contact: "KONTAKT"
   blog: "BLOGG"
-  docs: "DOK"
+  docs: "DOKUMENT"
 header:
   title: "Bytabit Mobil App"
-  subheader: "Köp / Sälj Bitcoin för Krona med Swish"
+  subheader: "Köp / Sälj Bitcoin för SEK med Swish"
 home:
-  safe: "Säker"
-  safe_subheader: "Bitcoin säkras av multi-signatur escrow med valfri skiljedom av Bytabit."
+  safe: "Säkerhet"
+  safe_subheader: "Bitcoin säkras genom multi-signatur escrow med möjlighet till skiljedom via Bytabit."
   private: "Privat"
-  private_subheader: "Identitetsinformation avslöjas endast för dina handelspartner."
+  private_subheader: "Din identitet visas endast för din motpart i handel."
   easy: "Lätt"
-  easy_subheader: "Enkelt att använda mobilapp för Android och iOS."
+  easy_subheader: "Användarvänlig mobilapp för Android och iOS."
 contact:
-  title: "Kom i kontakt"
-  text: "Vänligen meddela oss om du vill ha uppdateringar om vårt projekt eller att delta i vår kommande beta. Vi ser fram emot att höra från dig!"
+  title: "Kontakta oss"
+  text: "Meddela oss gärna ifall du vill ha uppdateringar kring projektet eller vill delta i vår uppkommande betatest. Vi ser fram emot att höra av dig!"
   offices: "Kontor"
   twitter: "Twitter"
   github: "GitHub"
+  signup: "Anmäl dig till vårt nyhetsbrev för att få de senaste Bytabit nyheterna."
+  yourname: "Ditt Namn"
+  emailaddress: "E-postadress"
+  note: "Notera"
+  submit: "Behandla"
+thankyou:
+  title: "Tack!"
+  text: "Vi uppskattar ditt intresse."
 
 members:
-  title: "MÖTTA VÅRA TEAM"
+  title: "MÖT VÅRT TEAM"
   contact: "Kontakta mig:"
-  position1: "Medgrundare, Engineering"
+  position1: "Medgrundare, Teknik"
   position2: "Medgrundare, Affärsutveckling"
   position3: "Medgrundare, Produktledning"
-  text1: "Steve har över tjugo års yrkeserfarenhet inom dataindustrin med tonvikt på mjukvaruutveckling och high end-server och nätverksarkitektur. Han är passionerad för att utveckla säkra, lättanvända Bitcoin-applikationer. "
-  text2: "Internationell tjänsteman per dag och företagare i hjärtat. Tro på att tappa den positiva makt Bitcoin och Blockchains. "
-  text3: "Richard är en professionell mjukvaruutvecklare med över tjugo års erfarenhet. Han är expert på alla aspekter av mjukvaruutvecklingsprocessen från design och arkitektur genom implementering, testning och support. "
+  text1: "Steve har över tjugo års yrkeserfarenhet inom dataindustrin med tonvikt på mjukvaruutveckling och high end-server och nätverksarkitektur. Hans passion är att utveckla säkra, lättanvända Bitcoin-applikationer. "
+  text2: "Marc är en internationell tjänsteman i vardagen och entreprenör i hjärtat Han har en stark tilltro till att frigöra de positiva effekter som Bitcoin och Blockchain möjliggör. "
+  text3: "Richard är en professionell mjukvaruutvecklare med över tjugo års erfarenhet. Han är expert på alla aspekter av mjukvaruutvecklingsprocessen från design och arkitektur till implementering, test och support. "
 about:
   title: "Mer Om Vårt Team."
-  text: "Vi byggde Bytabit eftersom vi tror att alla borde ha befogenhet att utbyta värde säkert, privat och utan tillstånd."
+  text: "Vi skapade Bytabit eftersom vi tycker att alla ska ha möjlighet att utbyta värde säkert, privat och utan tillstånd."
   contact: "Kontakta Oss"
 footer:
   about: "Om"
   social: "Sociala länkar"
   offices: "Kontor"
-  mission: "Uppdraget för Bytabit-laget är att ge det säkraste, privata och bekväma sättet att köpa och sälja bitcoin."
+  mission: "Bytabit ABs mål är att ge det säkraste, mest privata och bekvämaste sättet att köpa och sälja Bitcoin."
+
+  
+  
+  
+  

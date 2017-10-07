@@ -6,7 +6,7 @@ description: "The Bytabit Mobile project."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://bytabit.org"
-thankyou_url: "http://remyers.github.io"
+thankyou_url: "http://bytabit.org"
 
 # Build settings
 markdown: kramdown
@@ -40,9 +40,9 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Los Angeles, California
-    - New York, New York
-    - Malmö, Sweden
+    - Malmö
+    - Los Angeles
+    - New York
 email: info@bytabit.org
 tel1: +1 323 375 4277
 tel2: +46 (0) 40 6060683 

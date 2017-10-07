@@ -20,7 +20,7 @@ header:
   subheader: "Köp / Sälj Bitcoin för SEK med Swish"
 home:
   safe: "Säkerhet"
-  safe_subheader: "Bitcoin säkras genom multi-signatur escrow med möjlighet till skiljedom via Bytabit."
+  safe_subheader: "Bitcoin säkras genom multi-signatur deponering med möjlighet till skiljedom via Bytabit."
   private: "Privat"
   private_subheader: "Din identitet visas endast för din motpart i handel."
   easy: "Lätt"
@@ -37,7 +37,7 @@ contact:
   note: "Notera"
   submit: "Behandla"
 thankyou:
-  title: "Tack!"
+  tbouitle: "Tack!"
   text: "Vi uppskattar ditt intresse."
 
 members:
@@ -52,7 +52,7 @@ members:
 about:
   title: "Mer Om Vårt Team."
   text: "Vi skapade Bytabit eftersom vi tycker att alla ska ha möjlighet att utbyta värde säkert, privat och utan tillstånd."
-  contact: "Kontakta Oss"
+  contact: "Kontakta oss"
 footer:
   about: "Om"
   social: "Sociala länkar"

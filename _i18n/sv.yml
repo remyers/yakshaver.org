@@ -6,7 +6,7 @@ titles:
   docs: "Dokument"
   about: "Om"
   contact: "Kontakt"
-  thankyou: ""
+  thankyou: " "
   blog: "Blogg"
   categories: "Kategorier"
 nav:
@@ -37,7 +37,7 @@ contact:
   note: "Notera"
   submit: "Behandla"
 thankyou:
-  tbouitle: "Tack!"
+  title: "Tack!"
   text: "Vi uppskattar ditt intresse."
 
 members:

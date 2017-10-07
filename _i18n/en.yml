@@ -6,7 +6,7 @@ titles:
   docs: "Docs"
   about: "About"
   contact: "Contact"
-  thankyou: ""
+  thankyou: " "
   blog: "[SV]Blog"
   categories: "[SV]Categories" 
 nav:

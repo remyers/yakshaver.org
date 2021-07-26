@@ -1,4 +1,6 @@
-# yakshaver
+---
+title: "Yakshaver"
+---
 Personal web site for links to open source Bitcoin work
 
 ## Projects

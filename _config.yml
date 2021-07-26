@@ -1,1 +1,12 @@
-theme: jekyll-theme-minimal
+title: Yakshaver.org
+author: Richard Myers
+email: remyers@yakshaver.org
+description: > # this means to ignore newlines until "baseurl:"
+  Personal web site for links to open source Bitcoin work.
+# social links
+twitter_username: remyers_
+github_username:  remyers
+
+show_excerpts: true # set to false to remove excerpts on the homepage
+
+theme: minima

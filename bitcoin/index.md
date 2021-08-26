@@ -26,7 +26,7 @@ Faucet idea: can signet miners create a single signature and prototype transacti
 Tasks:
 
  - [X] [eltoo](https://blockstream.com/eltoo.pdf): Basic transaction tests, [simulate_eltoo.py: test_tapscript_eltoo()](https://github.com/remyers/bitcoin/blob/eltoo-anyprevout/test/functional/simulate_eltoo.py#L1623)
- - [X] [Blog post](https://bitcoin.yakshaver.org/2021/07/26/first.html) about basic transaction tests
+ - [X] [Blog post](https://yakshaver.org/2021/07/26/first.html) about basic transaction tests
  - [ ] [PTLCs](https://suredbits.com/schnorr-applications-scriptless-scripts) transaction tests
  - [ ] [Layered Commitments](https://lists.linuxfoundation.org/pipermail/lightning-dev/2020-January/002448.html) transaction tests
  - [ ] [Multiparty Channels](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6124062/) transaction tests

@@ -47,11 +47,20 @@ Taproot eltoo
 
 ### PTLCs
 
+Tasks:
+
+ - [ ] test/update [adapter-py](https://github.com/LeoComandini/adaptor-py) for use in the functional test framework
+ - [ ] create an adapter signatures test script to demonstrate how to exchange PTLC nonces
+ - [ ] update transactions so `claim_tx` uses key spend with adapter signature and `refund_tx` uses script spend with timeout
+ - [ ] create a new test derived from the [`test_tapscript_eltoo`](https://github.com/remyers/bitcoin/blob/37a7490dc3b2128c0f7e34a463531f1123682d42/test/functional/simulate_eltoo.py#L1623) script that replaces HTLCs with PTLCs
+
 Notes:
 
 * Privacy
 * Smaller Transactions
 * No Stuck Payments
+* Adapter Signatures: ["How DLC-Bets Work?"](https://satoshispritz.com/presentazioni/210318-how_dlc-bets_work.pdf) by  Leonardo Comandini + [adapter-py](https://github.com/LeoComandini/adaptor-py), a (toy) pure python adapter signatures implementation for ECDSA and Schnorr
+* Workflow and scripts: Bitcoin Optech ["The PTLC solution"](https://bitcoinops.org/en/preparing-for-taproot/#ptlcs)
 
 ### Layered Commitments
 

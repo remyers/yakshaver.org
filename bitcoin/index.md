@@ -60,7 +60,7 @@ Notes:
 * Smaller Transactions
 * No Stuck Payments
 * Adapter Signatures: ["How DLC-Bets Work?"](https://satoshispritz.com/presentazioni/210318-how_dlc-bets_work.pdf) by  Leonardo Comandini + [adapter-py](https://github.com/LeoComandini/adaptor-py), a (toy) pure python adapter signatures implementation for ECDSA and Schnorr
-* Workflow and scripts: Bitcoin Optech ["The PTLC solution"](https://bitcoinops.org/en/preparing-for-taproot/#ptlcs)
+* Workflow and scripts: Bitcoin Optech ["The PTLC solution"](https://bitcoinops.org/en/preparing-for-taproot/#ptlcs) and ["PTLCs Over LN"](https://bitcoinops.org/en/newsletters/2021/09/01/#ptlcs-over-ln) by [ZmnSCPxj](https://zmnscpxj.github.io/about.html)
 
 ### Layered Commitments
 

@@ -9,16 +9,16 @@ Tasks:
  - [ ] test `electrs`, branch: `cbor_replace_compiles` branch using `client2.py` test client
  - [ ] update `electrs` to use proposed compressed-block-header scheme
  - [ ] add support for compressed block headers to BDK electrs block source
- - [ ] test BDK cli client using electrs with compressed blockc headers
+ - [ ] test BDK cli client using electrs with compressed block headers
  
 Notes:
 
 Compressed Block Headers
-* [how to test compressed block headers in electrs](https://gist.github.com/willcl-ark/89bd4731c6d074f5e98ac3332286926a]
+* [how to test compressed block headers in electrs](https://gist.github.com/willcl-ark/89bd4731c6d074f5e98ac3332286926a)
   * first step is to get bitcoind and electrs running on Signet (or testnet, but Signet much smaller)
   * replace `json.dumps` with `cbor.dumps` in `client2.py`
-* [electrs compressed, branch: cbor_replace_compiles]([https://github.com/remyers/electrs/tree/cbor_replace_compiles] in electrs
-* [Proposal](https://github.com/willcl-ark/compressed-block-headers)
+* should use [electrs, branch: cbor_replace_compiles](https://github.com/remyers/electrs/tree/cbor_replace_compiles) electrs fork
+* CBH [Proposal](https://github.com/willcl-ark/compressed-block-headers)
 * [Mailing list discussion](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2020-May/017881.html)
 * [current compressed block headers implementation](https://github.com/willcl-ark/compressed-block-headers/commits/modules)
 

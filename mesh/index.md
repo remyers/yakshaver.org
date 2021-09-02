@@ -42,5 +42,10 @@ Notes:
 
 Notes:
 
+Lot49
+* [Lot49-android](https://github.com/remyers/lot49-android) source
+* [Lot49 whitepaper](https://global-mesh-labs.gitbook.io/lot49/)
+* [Lot49 simulation](https://github.com/remyers/lot49)
+
 WiFi Direct and Nearby APIs
 * ask about WiFi Direct and Nearby support in [LightSpot](https://play.google.com/store/apps/details?id=com.pseudozach.lightspot) by [pseudozach](https://github.com/pseudozach)

@@ -67,6 +67,7 @@ Notes:
 Notes:
 
 * CLTV deltas
+* Subject to [Siphon attacks](https://github.com/lightningnetwork/lightning-rfc/issues/845#issuecomment-779285607) if remote party signature does not commit amount of local party's HTLC outputs?
 
 ### Multiparty Channels
 

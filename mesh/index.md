@@ -49,3 +49,21 @@ Lot49
 
 WiFi Direct and Nearby APIs
 * ask about WiFi Direct and Nearby support in [LightSpot](https://play.google.com/store/apps/details?id=com.pseudozach.lightspot) by [pseudozach](https://github.com/pseudozach)
+
+### Kaios Phone
+
+- [ ] compile BDK to target KaiOS phone targeting asm.js
+- [ ] test BDK cli wallet targeted for asm.js
+- [ ] test on a KaiOS phone (eg. [Nokia 8110 4G](https://www.nokia.com/phones/en_int/nokia-8110-4g)]
+- [ ] test simple KaiOS app wallet UI
+- [ ] test simple KaiOS app wallet UI with BDK functionality
+
+Notes:
+
+KaiOS
+* tutorial on [Programming Rust for KaiOS](http://ianrrees.github.io/2019/11/04/programming-for-kaios.html)
+
+BDK
+* Bitcoin Dev Kit [cli wallet](https://github.com/bitcoindevkit/bdk-cli)
+
+Notes:

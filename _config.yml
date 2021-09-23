@@ -1,12 +1,22 @@
 title: Yakshaver.org
-author: Richard Myers
-email: remyers@yakshaver.org
 description: > # this means to ignore newlines until "baseurl:"
-  Personal web site for links to open source Bitcoin work. pgp: [EE8A 2E07 F8DF C578 4ED7  4D85 63AA A4D9 CE21 C775](https://yakshaver.org/yakshaver_pubkey.asc)
+  Personal web site for links to open source Bitcoin work.
 # social links
+author: "Richard Myers"
+email: remyers@yakshaver.org
+
+theme: minima
+
 twitter_username: remyers_
 github_username:  remyers
 
 show_excerpts: true # set to false to remove excerpts on the homepage
 
-theme: minima
+minima:
+  date_format: "%Y-%m-%d"
+
+# Minima: custom header links
+header_pages:
+  - bitcoin/index.md
+  - mesh/index.md
+  - about.md

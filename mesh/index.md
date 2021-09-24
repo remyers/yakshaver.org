@@ -6,7 +6,7 @@ title: "Mesh"
 
 Tasks:
 
- - [ ] Merge PRs to upstream repo
+ - [ ] Merge [PRs](https://github.com/MuleTools/txTenna/pulls) to upstream Samourai repo
  - [ ] Get updated version on the Google Play store
  - [ ] Better documentation on how to use TxTenna App
  - [ ] Better documentation on how to setup a TxTenna gateway and use with TxTenna App

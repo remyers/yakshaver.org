@@ -27,7 +27,7 @@ Tasks:
 
  - [X] [eltoo](https://blockstream.com/eltoo.pdf): Basic transaction tests, [simulate_eltoo.py: test_tapscript_eltoo()](https://github.com/remyers/bitcoin/blob/eltoo-anyprevout/test/functional/simulate_eltoo.py#L1623)
  - [X] [Blog post](https://yakshaver.org/2021/07/26/first.html) about basic transaction tests
- - [ ] [PTLCs](https://suredbits.com/schnorr-applications-scriptless-scripts) transaction tests
+ - [ ] [PTLCs](https://suredbits.com/payment-points-part-1/) transaction tests
  - [ ] [Layered Commitments](https://lists.linuxfoundation.org/pipermail/lightning-dev/2020-January/002448.html) transaction tests
  - [ ] [Multiparty Channels](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6124062/) transaction tests
  - [ ] update simulation with APO transactions
@@ -49,7 +49,7 @@ Taproot eltoo
 
 Tasks:
 
- - [X] test Schnorr adaptor signature using x-only pubkeys in functional test framework: [feature_adaptorsig.py](https://github.com/remyers/bitcoin/blob/adaptor_schnorr-elichai/test/functional/feature_adaptorsig.py)
+ - [X] Schnorr X-only pubkey [adaptor signature](https://github.com/bitcoin/bips/blob/master/bip-0340.mediawiki#Adaptor_Signatures) support in the functional test framework
  - [ ] create an adapter signatures test script to demonstrate how to exchange PTLC nonces
  - [ ] update transactions so `claim_tx` uses key spend with adapter signature and `refund_tx` uses script spend with timeout
  - [ ] create a new test derived from the [`test_tapscript_eltoo`](https://github.com/remyers/bitcoin/blob/37a7490dc3b2128c0f7e34a463531f1123682d42/test/functional/simulate_eltoo.py#L1623) script that replaces HTLCs with PTLCs
@@ -59,7 +59,7 @@ Notes:
 * Privacy
 * Smaller Transactions
 * No Stuck Payments
-* Adapter Signatures: ["How DLC-Bets Work?"](https://satoshispritz.com/presentazioni/210318-how_dlc-bets_work.pdf) by  Leonardo Comandini + [adapter-py](https://github.com/LeoComandini/adaptor-py), a (toy) pure python adapter signatures implementation for ECDSA and Schnorr
+* Adaptor Signatures: ["How DLC-Bets Work?"](https://satoshispritz.com/presentazioni/210318-how_dlc-bets_work.pdf) by  Leonardo Comandini + [adaptor-py](https://github.com/LeoComandini/adaptor-py), a (toy) pure python adapter signatures implementation for ECDSA and Schnorr
 * Workflow and scripts: Bitcoin Optech ["The PTLC solution"](https://bitcoinops.org/en/preparing-for-taproot/#ptlcs) and ["PTLCs Over LN"](https://bitcoinops.org/en/newsletters/2021/09/01/#ptlcs-over-ln) by [ZmnSCPxj](https://zmnscpxj.github.io/about.html)
 * Rust Schnorr adaptor signature implementation module [schnorr_fun::adaptor](https://docs.rs/schnorr_fun/0.6.2/schnorr_fun/adaptor/index.html) h/t [LLFOURN](https://twitter.com/LLFOURN)
 * Python Schnorr adaptor signature using x-only pubkeys and SECP256K1 in functional test framework file [key.py](https://github.com/elichai/bitcoin/blob/b8252af349143346b5881ddb4c627e460557c3ae/test/functional/test_framework/key.py#L636) h/t [Elichai2](https://twitter.com/Elichai2)

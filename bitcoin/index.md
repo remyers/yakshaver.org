@@ -6,7 +6,7 @@ title: "Bitcoin"
 
 I have compiled below a list of tasks and related notes that might be helpful for anyone that wants to learn more about the status and implementation details of BIP-118 (Anyprevout) and eltoo. Please get in touch if you have any questions or can help work on one of these tasks. Open an issue or PR if you think of additional tasks, notes or other changes for this page.
 
-### Anyprevout
+### Anyprevout (BIP-118)
 
 Tasks:
  - [X] Basic unit tests, [legacy](https://github.com/ajtowns/bitcoin/blob/57cb1249a20d2e09952040693eb62d04fe1f1399/src/test/sighash_tests.cpp#L247) and [taproot](https://github.com/ajtowns/bitcoin/blob/57cb1249a20d2e09952040693eb62d04fe1f1399/src/test/sighash_tests.cpp#L404)
@@ -84,4 +84,12 @@ Notes:
 
 * Generalized Off-chain Transactions
   
-  cache and aggregateve onchain transactions off-chain, timeouts must account for settlement of multiparty channel 
+  cache and aggregateve onchain transactions off-chain, timeouts must account for settlement of multiparty channel
+
+### Anyprevout Covenants
+
+Tasks:
+ - [ ] Create covenant test in functional test framework off of APO branch 
+
+Notes:
+  * AJ Towns [bitcoin-dev post](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg08075.html) (June 2019)

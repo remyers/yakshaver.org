@@ -48,6 +48,7 @@ Notes:
 
 * [LNTenna](https://github.com/willcl-ark/lntenna-python/tree/master)
 * Mesh Only Signal App with [SOCKS5 proxy server](https://github.com/remyers/Signal-Android/commit/ee018e3fcc991ed20eac85859b12604c3a2e6507)
+* Look at [Bluewallet/rn-ldk](https://github.com/BlueWallet/rn-ldk)
 
 ### Lot49 App
 

@@ -93,3 +93,4 @@ Tasks:
 
 Notes:
   * AJ Towns [bitcoin-dev post](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg08075.html) (June 2019)
+  * instead of script ```<sig> <P> CHECKSIG``` can we use ```<sig> 0x01 CHECKSIG``` to use internal pubkey and save 32 bytes?

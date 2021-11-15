@@ -79,6 +79,8 @@ Notes:
 
 KaiOS
 * tutorial on [Programming Rust for KaiOS](http://ianrrees.github.io/2019/11/04/programming-for-kaios.html)
+* [KaiOS 3.0 overview](https://developer.kaiostech.com/docs/sfp-3.0/introduction/overview) - version 84 includes WebAssembly.
+* [Nokia N1374 (TA-1374)](https://nokiamob.net/2021/09/30/nokia-n139dl-with-kaios-3-0-and-4g-support-gets-wi-fi-certified/) will run KaiOS 3.0 out of the box.
 
 BDK
 * Bitcoin Dev Kit [cli wallet](https://github.com/bitcoindevkit/bdk-cli)

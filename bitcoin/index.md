@@ -89,8 +89,13 @@ Notes:
 ### Anyprevout Covenants
 
 Tasks:
- - [ ] Create covenant test in functional test framework off of APO branch 
+ - [ ] Finish [covenant vault example tests](https://github.com/remyers/bitcoin/blob/covenant-anyprevout/test/functional/feature_apocovenant.py) in functional test framework off of APO branch 
+ - [X] [Blog post](https://yakshaver.org/2021/11/18/covenants.html) about how to use APO based covenants for a simple vault system
 
 Notes:
   * AJ Towns [bitcoin-dev post](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg08075.html) (June 2019)
   * instead of script ```<sig> <P> CHECKSIG``` can we use ```<sig> 0x01 CHECKSIG``` to use internal pubkey and save 32 bytes?
+  * Kanzure’s [2019 mailing list post](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2019-August/017229.html)
+  * Revault [vault scheme](https://github.com/revault/practical-revault/blob/master/revault.pdf)
+  * [Bitcoin Covenants: Three Ways to Control the Future](https://arxiv.org/pdf/2006.16714.pdf) (2020)
+  * Twitter [thread](https://twitter.com/remyers_/status/1461371410023133184) about APO Vault scheme

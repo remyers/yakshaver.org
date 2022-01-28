@@ -108,6 +108,14 @@ Notes:
   * Twitter [thread](https://twitter.com/remyers_/status/1461371410023133184) about APO Vault scheme
 
 ### GROUP
-  
 Tasks:
  - [ ] Blog post summarizing state of OP_GROUP discussions, including OP vs. SIGHASH, lexical ordering ([BIP-69](https://en.bitcoin.it/wiki/BIP_0069)) vs. tx cut-through/incremental batching
+
+### DLCs
+Tasks:
+ - [ ] Blog post discussing how APO can enable DLCs over Lightning
+
+ Notes:
+ * [\[Lightning-dev\] Claiming the 1BTC Strike/HRF "Stable Channel" bounty](https://www.mail-archive.com/lightning-dev@lists.linuxfoundation.org/msg02690.html)
+ * [How to claim the 1BTC “Stable Channel” Bounty from HRF and Strike](https://suredbits.com/how-to-claim-the-1btc-stable-channel-bounty-from-hrf-and-strike/)
+ * [OP_CTV and DLCs](https://gist.github.com/LLFourn/aa1327117f2c8cc7c2ac3fc9d0c4a9b9)

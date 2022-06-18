@@ -21,12 +21,25 @@ Notes:
 
 Faucet idea: can signet miners create a single signature and prototype transaction that can spend any coinbase output using APOAS? As long as any change goes back to the same address then the signature can be used again by others.
 
+### Replace-by-fee (RBF) changes
+
+Tasks:
+
+- [ ] Review and comment on instagibbs [BIP 125 nVersion=3 proposal](https://gist.github.com/instagibbs/b3095752d6289ab52166c04df55c1c19) for smart contracts like eltoo
+
+Notes:
+
+ - instagibbs [full_rbf branch](https://github.com/instagibbs/bitcoin/tree/full_rbf_2022)
+
+
 ### eltoo
 
 Tasks:
 
  - [X] [eltoo](https://blockstream.com/eltoo.pdf): Basic transaction tests, [simulate_eltoo.py: test_tapscript_eltoo()](https://github.com/remyers/bitcoin/blob/eltoo-anyprevout/test/functional/simulate_eltoo.py#L1623)
  - [X] [Blog post](https://yakshaver.org/2021/07/26/first.html) about basic transaction tests
+ - [ ] review/comment on [eltoo BOLT draft](https://github.com/instagibbs/bolts/tree/eltoo_draft)
+ - [ ] Blog post about tx fees with eltoo using package relay and instagibbs nVersion=3 proposal
  - [ ] [PTLCs](https://suredbits.com/payment-points-part-1/) transaction tests
  - [ ] [Layered Commitments](https://lists.linuxfoundation.org/pipermail/lightning-dev/2020-January/002448.html) transaction tests
  - [ ] [Multiparty Channels](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6124062/) transaction tests
@@ -38,6 +51,7 @@ Tasks:
  - [ ] add MuSig2 to simulation
 
 Notes:
+* [##eltoo](https://matrix.to/#/##eltoo:libera.chat) discussion on matrix/irc
 
 Segwit eltoo
 * [functional simulation](https://github.com/remyers/bitcoin/blob/anyprevout/test/functional/simulate_eltoo.py)

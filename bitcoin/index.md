@@ -31,7 +31,6 @@ Notes:
 
  - instagibbs [full_rbf branch](https://github.com/instagibbs/bitcoin/tree/full_rbf_2022)
 
-
 ### eltoo
 
 Tasks:
@@ -87,6 +86,7 @@ Notes:
 * CLTV deltas
 * Subject to [Siphon attacks](https://github.com/lightningnetwork/lightning-rfc/issues/845#issuecomment-779285607) if remote party signature does not commit amount of local party's HTLC outputs?
 * lnpenalty taproot [diagram](https://gist.github.com/ajtowns/12f58fa8a4dc9f136ed04ca2584816a2/)
+* Needs SIGHASH/OP_GROUP to regather update outputs to newer state outputs
 
 ### Multiparty Channels
 
@@ -105,6 +105,9 @@ Notes:
 Tasks:
  - [ ] Finish [covenant vault example tests](https://github.com/remyers/bitcoin/blob/covenant-anyprevout/test/functional/feature_apocovenant.py) in functional test framework off of APO branch 
  - [X] [Blog post](https://yakshaver.org/2021/11/18/covenants.html) about how to use APO based covenants for a simple vault system
+ - [ ] Blog post on non-interactive Lightning channel open
+ - [ ] Blog post on congestion control (delayed payments)
+ - [ ] Blog post on pre-planned vesting transactions
 
 Notes:
   * AJ Towns [bitcoin-dev post](https://www.mail-archive.com/bitcoin-dev@lists.linuxfoundation.org/msg08075.html) (June 2019)
@@ -113,3 +116,16 @@ Notes:
   * Revault [vault scheme](https://github.com/revault/practical-revault/blob/master/revault.pdf)
   * [Bitcoin Covenants: Three Ways to Control the Future](https://arxiv.org/pdf/2006.16714.pdf) (2020)
   * Twitter [thread](https://twitter.com/remyers_/status/1461371410023133184) about APO Vault scheme
+
+### GROUP
+Tasks:
+ - [ ] Blog post summarizing state of OP_GROUP discussions, including OP vs. SIGHASH, lexical ordering ([BIP-69](https://en.bitcoin.it/wiki/BIP_0069)) vs. tx cut-through/incremental batching
+
+### DLCs
+Tasks:
+ - [ ] Blog post discussing how APO can enable DLCs over Lightning
+
+ Notes:
+ * [\[Lightning-dev\] Claiming the 1BTC Strike/HRF "Stable Channel" bounty](https://www.mail-archive.com/lightning-dev@lists.linuxfoundation.org/msg02690.html)
+ * [How to claim the 1BTC “Stable Channel” Bounty from HRF and Strike](https://suredbits.com/how-to-claim-the-1btc-stable-channel-bounty-from-hrf-and-strike/)
+ * [OP_CTV and DLCs](https://gist.github.com/LLFourn/aa1327117f2c8cc7c2ac3fc9d0c4a9b9)

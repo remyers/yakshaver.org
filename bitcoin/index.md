@@ -11,6 +11,7 @@ I have compiled below a list of tasks and related notes that might be helpful fo
 Tasks:
  - [X] Basic unit tests, [legacy](https://github.com/ajtowns/bitcoin/blob/57cb1249a20d2e09952040693eb62d04fe1f1399/src/test/sighash_tests.cpp#L247) and [taproot](https://github.com/ajtowns/bitcoin/blob/57cb1249a20d2e09952040693eb62d04fe1f1399/src/test/sighash_tests.cpp#L404)
  - [ ] Review and comment on [BIP-118](https://github.com/bitcoin/bips/blob/master/bip-0118.mediawiki)
+ - [ ] Review and add to BIP-118 tests for bitcoin-inquisition [PR #4](https://github.com/bitcoin-inquisition/bitcoin/pull/4)
  - [ ] run a signet node
  - [ ] run a signet faucet
 

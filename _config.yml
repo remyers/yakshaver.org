@@ -20,3 +20,5 @@ header_pages:
   - bitcoin/index.md
   - mesh/index.md
   - about.md
+
+include: [".well-known"]

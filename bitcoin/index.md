@@ -18,7 +18,12 @@ Tasks:
 Notes:
 
 * BIP
+
+[mailing list post, Dec 2022](https://lists.linuxfoundation.org/pipermail/bitcoin-dev/2022-December/021275.html)
+
 * Signet
+
+[Inquisition PR#18 adds APO](https://github.com/bitcoin-inquisition/bitcoin/pull/18#pullrequestreview-1294700711) 
 
 Faucet idea: can signet miners create a single signature and prototype transaction that can spend any coinbase output using APOAS? As long as any change goes back to the same address then the signature can be used again by others.
 
@@ -58,6 +63,10 @@ Segwit eltoo
 
 Taproot eltoo
 * [sketch by AJ Towns](https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-May/001996.html)
+
+
+Implementation:
+* [instagibbs/lightning](https://github.com/instagibbs/lightning/commits/eltoo_support)
 
 ### PTLCs
 

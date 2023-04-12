@@ -1,7 +1,7 @@
 ---
 title: "Yakshaver"
 ---
-Personal web site for links to open source Mesh work
+Personal website for links to open source Mesh work
 
 ## Projects
 * [Bitcoin](https://yakshaver.org/bitcoin):

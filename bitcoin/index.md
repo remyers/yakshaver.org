@@ -139,3 +139,9 @@ Tasks:
  * [\[Lightning-dev\] Claiming the 1BTC Strike/HRF "Stable Channel" bounty](https://www.mail-archive.com/lightning-dev@lists.linuxfoundation.org/msg02690.html)
  * [How to claim the 1BTC “Stable Channel” Bounty from HRF and Strike](https://suredbits.com/how-to-claim-the-1btc-stable-channel-bounty-from-hrf-and-strike/)
  * [OP_CTV and DLCs](https://gist.github.com/LLFourn/aa1327117f2c8cc7c2ac3fc9d0c4a9b9)
+
+## LN Symmetry
+
+* [DB: LN-Symmetry Project Recap](https://delvingbitcoin.org/t/ln-symmetry-project-recap/359/1)
+* [SLP 463 with Greg Sanders](https://stephanlivera.com/episode/463/)
+* [LN Symmetry BOLT Spec (draft)](https://github.com/instagibbs/bolts/tree/eltoo_draft)
